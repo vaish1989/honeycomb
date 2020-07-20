@@ -1,0 +1,19 @@
+ form li{
+	list-style: none;
+	margin-bottom: 20px;
+	font-family: sans-serif;
+}
+
+ {
+	display: block;
+}
+
+form ul{
+	padding-left: 0;
+}
+
+textarea{
+	width: 163px;
+	height: 100px;
+}
+
