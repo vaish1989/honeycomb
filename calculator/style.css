@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pic1.png);
+height: 100vh;
+background-size: cover;
+background-position: center;
+
+}
+
+.button{
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	background: rgba(255, 255, 255,0.8);
+	border:none;
+	color: #023e69;
+}
+
+.textview{
+	width: 208px;
+	margin: 5px;
+	font-size: 25px;
+	padding: 5px;
+	background: rgba(255, 255, 255,0.8);
+	border:none;
+	color: #023e69;
+}
+
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	
+
+}
+
+.bg{
+	background: rgb(0,57,99);
+	background: linear-gradient(61deg, rgba(0,57,99,0.981127485173757) 36%, rgba(0,181,255,1) 85%);
+	height: 100%;
+
+}
+
